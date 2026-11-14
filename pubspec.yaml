@@ -1,0 +1,88 @@
+
+name: landia_app
+description: "LANDIA FARM - Smart Farming Monitoring System"
+publish_to: 'none'
+
+# Application version
+version: 1.0.0+1
+
+# Dart SDK
+environment:
+  sdk: ^3.10.4
+
+# ============================================================
+# PRODUCTION DEPENDENCIES
+# ============================================================
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_riverpod: ^3.3.2
+
+  # REST API & HTTP Client
+  dio: ^5.11.1
+
+  # Navigation & Routing
+  go_router: ^17.5.0
+
+  # Date, Time & Currency Formatting
+  intl: ^0.20.3
+
+  # Data Visualization & Charts
+  fl_chart: ^1.3.1
+
+  # PDF Generation
+  pdf: ^3.12.0
+
+  # PDF Preview & Printing
+  printing: ^5.14.3
+
+  # Save Generated Files to Device
+  public_file_saver: ^1.2.2
+
+# ============================================================
+# DEVELOPMENT DEPENDENCIES
+# ============================================================
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Flutter Recommended Lints
+  flutter_lints: ^6.0.0
+
+# ============================================================
+# DEPENDENCY OVERRIDES
+# ============================================================
+
+dependency_overrides:
+  archive: 4.6.0
+
+# ============================================================
+# FLUTTER CONFIGURATION
+# ============================================================
+
+flutter:
+  uses-material-design: true
+
+  # Assets
+  # Aktifkan jika nanti menggunakan gambar atau ikon lokal.
+  #
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+
+  # Custom Fonts
+  # Aktifkan jika nanti menambahkan font lokal.
+  #
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
